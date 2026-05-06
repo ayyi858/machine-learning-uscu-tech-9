@@ -1,0 +1,8 @@
+.Renviron
+.Rhistory
+.RData
+.Rproj.user
+error_log.txt
+all_inputs.txt
+inputs.txt
+progress.txt
