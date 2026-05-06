@@ -2338,15 +2338,15 @@ server <- function(input, output, session) {
                        "Konfigurasi Laporan Presentasi"),
       tags$p("Masukkan nama anggota kelompok (5 orang) untuk dicantumkan dalam laporan akademik:"),
       fluidRow(
-        column(6, textInput("member1", "Anggota 1 (Ketua)", "Nama Lengkap 1")),
-        column(6, textInput("member2", "Anggota 2", "Nama Lengkap 2"))
+        column(6, textInput("member1", "Anggota 1 (Ketua)", "MUAMMAR")),
+        column(6, textInput("member2", "Anggota 2", "ARYA PRAMUKTI BASRI"))
       ),
       fluidRow(
-        column(6, textInput("member3", "Anggota 3", "Nama Lengkap 3")),
-        column(6, textInput("member4", "Anggota 4", "Nama Lengkap 4"))
+        column(6, textInput("member3", "Anggota 3", "AHMAD SYARIF HIDAYATULLAH")),
+        column(6, textInput("member4", "Anggota 4", "RAHMAT FADHILA"))
       ),
       fluidRow(
-        column(12, textInput("member5", "Anggota 5", "Nama Lengkap 5"))
+        column(12, textInput("member5", "Anggota 5", "MUHAMMAD IKRAR"))
       ),
       tags$hr(),
       tags$div(style="font-size:12px; color:#6B7280; background:#F9FAFB; padding:10px; border-radius:6px;",
